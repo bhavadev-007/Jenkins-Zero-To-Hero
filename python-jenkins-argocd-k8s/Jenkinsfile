@@ -1,4 +1,4 @@
-#argocd-k8s
+#argocd-k8sf
 #steps from checkout to target kuber
 pipeline {
     
