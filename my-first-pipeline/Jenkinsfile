@@ -6,6 +6,13 @@ pipeline {
     stage('Test') {
       steps {
         sh 'node --version'
+   stage('Test') {
+            steps {
+                echo 'Running tests...'
+                // Example: Run tests
+                sh 'mvn test'
+            }
+        }     
       }
     }
   }
