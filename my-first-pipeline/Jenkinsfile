@@ -1,4 +1,3 @@
-#first com
 pipeline {
   agent {
     docker { image 'node:16-alpine' }
@@ -9,7 +8,7 @@ pipeline {
         sh 'node --version'
    stage('Test') {
             steps {
-                echo 'Running tests...'
+                echo 'Running tests with all...'
                 // Example: Run tests
                 sh 'mvn test'
             }
