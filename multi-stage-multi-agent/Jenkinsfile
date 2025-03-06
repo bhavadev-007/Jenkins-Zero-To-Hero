@@ -1,3 +1,4 @@
+#multione
 pipeline {
   agent none
   stages {
