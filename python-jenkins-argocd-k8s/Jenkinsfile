@@ -1,4 +1,5 @@
 #argocd-k8s
+#steps from checkout to target kub
 pipeline {
     
     agent any 
